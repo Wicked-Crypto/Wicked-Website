@@ -8,6 +8,7 @@ class CityGallery extends Component {
   render() {
     return (
       <div className="container">
+        <h2>Find Wicked Crypto Meetup in your city</h2>
         <div className="row">
           <div className="col-12 col-sm-6">
             <div className="city-card warsaw-card">

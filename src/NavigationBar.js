@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Home from './Home';
+import Footer from './Footer';
 import './NavigationBar.css';
 import Logo from './images/wicked-logo.png'
 
@@ -39,6 +40,7 @@ class NavigationBar extends Component {
 		  <main className="mdl-layout__content">
 		    <div className="page-content">
 		        <Home />
+		        <Footer />
 		    </div>
 		  </main>
 		</div>

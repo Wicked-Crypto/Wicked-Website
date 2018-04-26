@@ -7,18 +7,19 @@ class SocialLinks extends Component {
   render() {
     return (
       <div className="container">
+        <h3>For updates, more info about speakers & live streaming:</h3>
         <div className="row">
           <div className="col-4">
-            <p>Follow our Facebook</p>
             <img src={Facebook} height="90" width="90" />
+            <p>Follow our Facebook</p>
           </div>
           <div className="col-4">
-            <p>Follow our Twitter</p>
             <img src={Twitter} height="90" width="90" />
+            <p>Follow our Twitter</p>
           </div>
           <div className="col-4">
-            <p>Follow our Meetup</p>
             <img src={Meetup} height="90" width="90" />
+            <p>Follow our Meetup</p>
           </div>
         </div>
       </div>

@@ -4,6 +4,9 @@ import WickedCarousel from './WickedCarousel';
 import CityGallery from './CityGallery';
 import WhatIs from './WhatIs';
 import SocialLinks from './SocialLinks';
+import TeamMembers from './TeamMembers';
+import Contact from './Contact';
+import BitcoinSupport from './BitcoinSupport';
 import './Home.css';
 
 class Home extends Component {
@@ -12,12 +15,12 @@ class Home extends Component {
     	<div class="Home">
     		<SubMenu />
     		<WickedCarousel />
-    		<h2>Find Wicked Crypto Meetup in your city</h2>
     		<CityGallery />
-    		<h2>What is Wicked Crypto?</h2>
     		<WhatIs />
-            <h3>For updates, more info about speakers & live streaming:</h3>
             <SocialLinks />
+            <TeamMembers />
+            <Contact />
+            <BitcoinSupport />
     	</div>
     );
   }
