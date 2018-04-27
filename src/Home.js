@@ -7,6 +7,7 @@ import SocialLinks from './SocialLinks';
 import TeamMembers from './TeamMembers';
 import Contact from './Contact';
 import BitcoinSupport from './BitcoinSupport';
+import Sponsors from './Sponsors';
 import './Home.css';
 
 class Home extends Component {
@@ -19,6 +20,7 @@ class Home extends Component {
     		<WhatIs />
             <SocialLinks />
             <TeamMembers />
+            <Sponsors />
             <Contact />
             <BitcoinSupport />
     	</div>
