@@ -14,10 +14,10 @@ const Header = () => (
 		        <Link to='/'><span><img src={Logo} height="90" width="90" /></span></Link>
 		      </div>
 		      <nav className="mdl-navigation mdl-layout--large-screen-only">
-		        <a className="mdl-navigation__link header__link" href="https://wicked-crypto.github.io/#about">About</a>
+		        <a className="mdl-navigation__link header__link" href="http://dominikazaleska.github.io/wicked-crypto#about">About</a>
 		        <a className="mdl-navigation__link header__link"><Link to='/meetups' className="header-link">Meetups</Link></a>
-		        <a className="mdl-navigation__link header__link" href="https://wicked-crypto.github.io/#sponsors">Sponsors</a>
-		      	<a className="mdl-navigation__link header__link" href="https://wicked-crypto.github.io/#contact">Contact</a>		  
+		        <a className="mdl-navigation__link header__link" href="http://dominikazaleska.github.io/wicked-crypto#sponsors">Sponsors</a>
+		      	<a className="mdl-navigation__link header__link" href="http://dominikazaleska.github.io/wicked-crypto#contact">Contact</a>		  
 		      </nav>
 		    </div>
 		  </header>
@@ -25,12 +25,12 @@ const Header = () => (
 		    <nav className="mdl-navigation">
 		      <a className="mdl-navigation__link" href="#about">About</a>
 		      <a className="mdl-navigation__link"><Link to='/meetups' className="header-link">Meetups</Link></a>
-			  <a className="mdl-navigation__link city__link" href="https://wicked-crypto.github.io/meetups/warsaw">Warsaw</a>
-			  <a className="mdl-navigation__link city__link" href="https://wicked-crypto.github.io/meetups/newyork">New York</a>
-			  <a className="mdl-navigation__link city__link" href="https://wicked-crypto.github.io/meetups/paris">Paris</a>
-		      <a className="mdl-navigation__link" href="https://wicked-crypto.github.io/#sponsors">Sponsors</a>
-		      <a className="mdl-navigation__link" href="https://wicked-crypto.github.io/#contact">Contact</a>		
-		      <a className="mdl-navigation__link" href="https://wicked-crypto.github.io/#social">Social</a>		    
+			  <a className="mdl-navigation__link city__link" href="http://dominikazaleska.github.io/wicked-crypto/meetups/warsaw">Warsaw</a>
+			  <a className="mdl-navigation__link city__link" href="http://dominikazaleska.github.io/wicked-crypto/meetups/newyork">New York</a>
+			  <a className="mdl-navigation__link city__link" href="http://dominikazaleska.github.io/wicked-crypto/meetups/paris">Paris</a>
+		      <a className="mdl-navigation__link" href="http://dominikazaleska.github.io/wicked-crypto#sponsors">Sponsors</a>
+		      <a className="mdl-navigation__link" href="http://dominikazaleska.github.io/wicked-crypto#contact">Contact</a>		
+		      <a className="mdl-navigation__link" href="http://dominikazaleska.github.io/wicked-crypto#social">Social</a>		    
 		    </nav>
 		  </div>
 		</div>

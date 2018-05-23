@@ -2,7 +2,7 @@
   "name": "wicked-crypto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wicked-crypto.github.io",
+  "homepage": "http://dominikazaleska.github.io/wicked-crypto",
   "dependencies": {
     "browser-router": "^0.2.0",
     "gh-pages": "^1.1.0",
